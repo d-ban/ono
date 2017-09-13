@@ -1,0 +1,79 @@
+html{
+  background-color: black  !important;;
+  color: gray !important;
+  height: 100vh !important;
+  min-height: 100vh !important;
+}
+body {
+  background-color: black  !important;;
+  color: gray !important;
+  height: 100vh !important;
+  min-height: 100vh !important;
+}
+
+.App {
+    background-color: black  !important;;
+    color: gray !important;
+    height: 100vh !important;
+    min-height: 100vh !important;
+}
+.Description {
+    background-color: black  !important;;
+    color: gray !important;
+}
+
+h2 {
+    background-color: black;
+    color: white !important;;
+}
+.date{
+  font-size: xx-small;
+  color: gray;
+}
+
+  .feed{
+      display: inline-block;
+      color: gray;
+      /*width: 500px;*/
+      max-width: 100%;
+      font-size: 12px;
+      word-break: break-word;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      max-height: 500px;
+
+  }
+  .feedH{
+      display: inline-block;
+      color: gray;
+      /*width: 500px;*/
+      max-width: 100%;
+      font-size: 12px;
+      word-break: break-word;
+      overflow:hidden;
+      max-height: 300px;
+
+  }
+  .title{
+      /*font-size: 13px;*/
+  }
+  .titleReaded{
+      /*font-size: 13px;*/
+      color: gray;
+  }
+
+@media (max-width: 500px) {
+  .feed{
+      display: inline-block;
+      color: gray;
+      max-width: 100%;
+      max-height: 400px;
+      word-break: break-word;
+      overflow:auto;
+  }
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,70 @@
+{
+  "name": "notar",
+  "description": "note app",
+  "version": "0.0.0",
+  "homepage": "",
+  "main": "src",
+  "keywords": [
+    "feathers"
+  ],
+  "author": {
+    "name": "d_ban",
+    "email": "d_ban@icloud.com"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src",
+    "test": "test/"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "yarn": ">= 0.18.0"
+  },
+  "scripts": {
+    "test": "npm run eslint && npm run mocha",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "start": "nodemon src/",
+    "mocha": "mocha test/ --recursive"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "mocha": "^3.5.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "compression": "^1.7.0",
+    "cors": "^2.8.4",
+    "feathers": "^2.1.7",
+    "feathers-authentication": "^1.2.7",
+    "feathers-authentication-hooks": "^0.1.4",
+    "feathers-authentication-jwt": "^0.3.2",
+    "feathers-authentication-local": "^0.4.4",
+    "feathers-configuration": "^0.4.1",
+    "feathers-hooks": "^2.0.2",
+    "feathers-hooks-common": "^3.7.2",
+    "feathers-mongodb-fuzzy-search": "^1.0.1",
+    "feathers-mongoose": "^5.1.2",
+    "feathers-nedb": "^2.6.2",
+    "feathers-nedb-fuzzy-search": "^1.1.1",
+    "feathers-rest": "^1.8.0",
+    "feathers-socketio": "^2.0.0",
+    "feedparser": "^2.2.1",
+    "guessit-exec": "0.0.1",
+    "helmet": "^3.8.1",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.9",
+    "moviedb": "^0.2.10",
+    "mustache": "^2.3.0",
+    "nedb": "^1.8.0",
+    "nodemon": "^1.11.0",
+    "parse-favicon": "^1.2.8",
+    "parse-torrent-name": "^0.5.4",
+    "sanitize-html": "^1.14.1",
+    "serve-favicon": "^2.4.3",
+    "winston": "^2.3.1"
+  }
+}
