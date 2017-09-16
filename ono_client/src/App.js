@@ -189,7 +189,7 @@ Promise.all([client.authenticate()]).then(([auth]) => {
       client.service('mystream').find({
         query: {
           createdAt: {
-            $gte: moment().subtract(1, 'days').format('YYYY-MM-DD HH:mm:ss')
+            $gte: moment().subtract(12, 'hours').format('YYYY-MM-DD HH:mm:ss')
           },
           readCount: {
             $lte: this.state.lt
@@ -352,7 +352,7 @@ Promise.all([client.authenticate()]).then(([auth]) => {
     client.service('mystream').find({
       query: {
         createdAt: {
-          $gte: moment().subtract(1, 'days').format('YYYY-MM-DD HH:mm:ss')
+          $gte: moment().subtract(12, 'hours').format('YYYY-MM-DD HH:mm:ss')
         },
         readCount: {
           $lte: this.state.lt
@@ -462,7 +462,7 @@ Promise.all([client.authenticate()]).then(([auth]) => {
             $lte: this.state.lt
           },
           createdAt: {
-            $gte: moment().subtract(1, 'days').format('YYYY-MM-DD HH:mm:ss')
+            $gte: moment().subtract(12, 'hours').format('YYYY-MM-DD HH:mm:ss')
           },
           $sort: {
             boost: -1,
@@ -776,7 +776,7 @@ Promise.all([client.authenticate()]).then(([auth]) => {
 
   getMore(){
     console.log("getMore");
-    console.log(moment().subtract(1, 'days').format('YYYY-MM-DD HH:mm:ss'));
+    console.log(moment().subtract(12, 'hours').format('YYYY-MM-DD HH:mm:ss'));
 
     console.clear()
     this.setState({feedUrls:[]})
@@ -793,7 +793,7 @@ Promise.all([client.authenticate()]).then(([auth]) => {
           $lte: this.state.lt
         },
         createdAt: {
-          $gte: moment().subtract(1, 'days').format('YYYY-MM-DD HH:mm:ss')
+          $gte: moment().subtract(12, 'hours').format('YYYY-MM-DD HH:mm:ss')
         },
         $sort: {
           boost: -1,
