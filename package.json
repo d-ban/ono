@@ -56,7 +56,7 @@
     "guessit-exec": "0.0.1",
     "helmet": "^3.8.1",
     "moment": "^2.18.1",
-    "mongoose": "^4.11.9",
+    "mongoose": "^5.7.5",
     "moviedb": "^0.2.10",
     "mustache": "^2.3.0",
     "nedb": "^1.8.0",
