@@ -9,7 +9,7 @@
     "react-dom": "^15.6.1",
     "react-infinite-scroller": "^1.0.15",
     "react-scripts": "1.0.11",
-    "sanitize-html": "^1.14.1",
+    "sanitize-html": "^2.3.2",
     "semantic-ui-css": "^2.2.12",
     "semantic-ui-react": "^0.71.4"
   },
